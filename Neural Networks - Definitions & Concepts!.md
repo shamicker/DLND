@@ -437,3 +437,27 @@ Does every hidden node need to be connected to every original pixel? There may b
 ```python
 
 ```
+
+## RNNs - Recurrent Neural Networks
+- **recurrent** as in re-occurs: there's a bit of a memory involved
+- good for text/time analysis because of the relationship of the order (memory) of the words
+- have a **major flaw** that stems from the *vanishing gradient*, where information decays over time
+    - to overcome this:
+        - LSTM (long short-term memory cells) is an option
+        - GRU (gated recurrent units) is another option
+- speech recognition
+    - Amazon's Alexa
+    - Apple's Siri
+    - Google's Assistant
+- time series predictions
+    - traffic patterns (Waze)
+    - movie selection (Netflix)
+    - stock movements 
+- NLP
+    - machine translation (google translate)
+    - question answering (google analytics)
+    - chatbots
+- gesture recognition
+    - like sign language?
+    - dancing?
+- 
