@@ -1,3 +1,4 @@
 *.pem
 */*.pem
 .ipynb_checkpoints
+*/*/*.zip
